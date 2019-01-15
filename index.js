@@ -17,15 +17,15 @@ app.get("/test", function (req, res) {
     visualRecognition.classify(params, function (err, response) {
         if (err)
             console.log(err);
-        else{
+        else {
             //Store the response into a string
             var result = JSON.stringify(response, null, 2);
             res.end(result);
             console.log(result);
-           
+
         }
     });
- 
+
 
 })
 
