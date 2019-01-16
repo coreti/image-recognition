@@ -7,7 +7,7 @@ app.get("/test", function (req, res) {
 
     var visualRecognition = new VisualRecognitionV3({
         version: '2018-03-19',
-        iam_apikey: 'cKQTbHT3KYZds2cHXBnUHsO5tQ6N-mrPVu5zZusp8A0p8'
+        iam_apikey: 'KQTbHT3KYZds2cHXBnUHsO5tQ6N-mrPVu5zZusp8A0p8'
     });
 
     var params = {
